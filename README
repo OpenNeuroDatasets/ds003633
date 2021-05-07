@@ -28,55 +28,55 @@ the data were organized following the MEG-BIDS using MNE-BIDS toolbox.
 
 The preprocessed MEG recordings including the preprocessed MEG data, the event files, the ICA decomposition and label files and the MEG-MRI coordinate transformation file are hosted here. 
 
-	©¸©¤©¤ .derivatives/preproc_meg-mne_mri-fmriprep/sub-xx/ses-movie/meg/
-		©À©¤©¤ sub-xx_ses-movie_coordsystem.json
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_channels.tsv
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_decomposition.tsv
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_events.tsv
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_ica.fif.gz
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_meg.fif
-		©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_meg.json
-		©À©¤©¤ ...
-		©¸©¤©¤ sub-xx_ses-movie_task-movie_trans.fif
+	â””â”€â”€ .derivatives/preproc_meg-mne_mri-fmriprep/sub-xx/ses-movie/meg/
+		â”œâ”€â”€ sub-xx_ses-movie_coordsystem.json
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_channels.tsv
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_decomposition.tsv
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_events.tsv
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_ica.fif.gz
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_meg.fif
+		â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_meg.json
+		â”œâ”€â”€ ...
+		â””â”€â”€ sub-xx_ses-movie_task-movie_trans.fif
 
 
 *the pre-processed MRI data*
 
 The preprocessed MRI volume, reconstructed surface, and other associations including transformation files are hosted here
 
-	©¸©¤©¤ .derivatives/preproc_meg-mne_mri-fmriprep/sub-xx/ses-movie/anat/
-		©À©¤©¤ sub-xx_ses-movie_desc-preproc_T1w.nii.gz
-		©À©¤©¤ sub-xx_ses-movie_hemi-L_inflated.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-L_midthickness.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-L_pial.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-L_smoothwm.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-R_inflated.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-R_midthickness.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-R_pial.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_hemi-R_smoothwm.surf.gii
-		©À©¤©¤ sub-xx_ses-movie_space-MNI152NLin2009cAsym_desc-preproc_T1w.nii.gz
-		©À©¤©¤ sub-xx_ses-movie_space-MNI152NLin6Asym_desc-preproc_T1w.nii.gz
-		©¸©¤©¤ ...
+	â””â”€â”€ .derivatives/preproc_meg-mne_mri-fmriprep/sub-xx/ses-movie/anat/
+		â”œâ”€â”€ sub-xx_ses-movie_desc-preproc_T1w.nii.gz
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-L_inflated.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-L_midthickness.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-L_pial.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-L_smoothwm.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-R_inflated.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-R_midthickness.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-R_pial.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_hemi-R_smoothwm.surf.gii
+		â”œâ”€â”€ sub-xx_ses-movie_space-MNI152NLin2009cAsym_desc-preproc_T1w.nii.gz
+		â”œâ”€â”€ sub-xx_ses-movie_space-MNI152NLin6Asym_desc-preproc_T1w.nii.gz
+		â””â”€â”€ ...
 
 the FreeSurfer surface data, the high-resolution head surface and the MRI-fiducials are provided here
 
-	©¸©¤©¤ .derivatives/preproc_meg-mne_mri-fmriprep/sourcedata/
-		©¸©¤©¤ freesurfer	
-		    ©¸©¤©¤ sub-xx
-		    ©¸©¤©¤ ...
+	â””â”€â”€ .derivatives/preproc_meg-mne_mri-fmriprep/sourcedata/
+		â””â”€â”€ freesurfer	
+		    â””â”€â”€ sub-xx
+		    â””â”€â”€ ...
 
 		
 *the raw data*
 
-	©¸©¤©¤ ./sub-xx/ses-movie/	
-		©À©¤©¤ meg/
-		©¦	©À©¤©¤ sub-xx_ses-movie_coordsystem.json
-		©¦	©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_channels.tsv
-		©¦	©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_events.tsv
-		©¦	©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_meg.ds
-		©¦	©À©¤©¤ sub-xx_ses-movie_task-movie_run-xx_meg.json
-		©¦	©¸©¤©¤ ...		
-		©¸©¤©¤ anat/
-			©À©¤©¤ sub-xx_ses-movie_T1w.json
-			©¸©¤©¤ sub-xx_ses-movie_T1w.nii.gz
+	â””â”€â”€ ./sub-xx/ses-movie/	
+		â”œâ”€â”€ meg/
+		â”‚	â”œâ”€â”€ sub-xx_ses-movie_coordsystem.json
+		â”‚	â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_channels.tsv
+		â”‚	â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_events.tsv
+		â”‚	â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_meg.ds
+		â”‚	â”œâ”€â”€ sub-xx_ses-movie_task-movie_run-xx_meg.json
+		â”‚	â””â”€â”€ ...		
+		â””â”€â”€ anat/
+			â”œâ”€â”€ sub-xx_ses-movie_T1w.json
+			â””â”€â”€ sub-xx_ses-movie_T1w.nii.gz
 
