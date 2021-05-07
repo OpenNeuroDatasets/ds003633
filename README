@@ -63,7 +63,8 @@ the FreeSurfer surface data, the high-resolution head surface and the MRI-fiduci
 		└── freesurfer	
 		    └── sub-xx
 		    └── ...
-		
+
+
 *the raw data*
 
 	└── ./sub-xx/ses-movie/	
