@@ -1,5 +1,5 @@
 
-****ForrestGump-MEG: A audio-visual movie watching MEG dataset****
+*****ForrestGump-MEG: A audio-visual movie watching MEG dataset*****
 
 For details please refer to our paper on [].
 
@@ -8,8 +8,7 @@ This dataset contains MEG data recorded from 11 subjects while watching the 2h l
 
 **Pre-process procedure description**
 
-The T1w images stored as NIFTI files were minimally-preprocessed using the anatomical preprocessing pipeline from fMRIPrep with default 
-settings. 
+The T1w images stored as NIFTI files were minimally-preprocessed using the anatomical preprocessing pipeline from fMRIPrep with default settings. 
 
 MEG data were pre-processed using MNE following a three-step procedure: 1. bad channels were detected and removed. 2. a high-pass filter of 1 Hz was applied to remove possible slow drifts from the continuous MEG data. 3. artifacts removal was performed with ICA.
 
