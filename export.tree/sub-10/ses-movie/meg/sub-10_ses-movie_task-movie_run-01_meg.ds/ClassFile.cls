@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/Zj/7m/MD5E-s247--c5589cf1f30c25f3b23336dacdd12cca.cls/MD5E-s247--c5589cf1f30c25f3b23336dacdd12cca.cls
