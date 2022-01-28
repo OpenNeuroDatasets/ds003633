@@ -1,0 +1,1 @@
+../../../../.git/annex/objects/Gk/Fq/MD5E-s247--aa10db5c8da870aac0130d375dbe08cd.cls/MD5E-s247--aa10db5c8da870aac0130d375dbe08cd.cls
