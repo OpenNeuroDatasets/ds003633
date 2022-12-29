@@ -5,6 +5,8 @@ For details please refer to our paper on https://www.biorxiv.org/content/10.1101
 
 This dataset contains MEG data recorded from 11 subjects while watching the 2h long Chinese-dubbed audio-visual movie 'Forrest Gump'. The data were acquired with a 275-channel CTF MEG. Auxiliary data (T1w) as well as derivation data such as preprocessed data and MEG-MRI co-registration are also included. 
 
+Please noted that for sub-01, the MEG machine collapsed at the 500th second in run 7 (segment 7), a supplementary run (run 8, segment 7, 200 s) was recorded subsequently after the collapse. So there are 9 runs in total for sub-01 with run 7&8 for segment 8 and run 9 for segment 8. 
+
 
 **Pre-process procedure description**
 
