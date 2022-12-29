@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/1w/WG/MD5E-s247--f2b8abf88f5b7e2a4eb396536972361b.cls/MD5E-s247--f2b8abf88f5b7e2a4eb396536972361b.cls
